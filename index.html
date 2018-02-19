@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="fonts/fontawesome-all.css">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <title>Agency - Start Bootstrap Theme</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="header-wrapper">
+                <h1 class="logo">Start Bootstrap</h1>
+                <nav class="desktop-menu">
+                    <ul class="menu-list">
+                        <li class="menu-list-item"><a href="" class="menu-link">Services</a></li>
+                        <li class="menu-list-item"><a href="" class="menu-link">Portfolio</a></li>
+                        <li class="menu-list-item"><a href="" class="menu-link">About</a></li>
+                        <li class="menu-list-item"><a href="" class="menu-link">Team</a></li>
+                        <li class="menu-list-item"><a href="" class="menu-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-btn" onclick="toggleMenu()">Menu<i class="fa fa-bars"></i></button>
+            </div>
+        </header>
+        <nav class="mobile-menu" id="menu-trigger">
+                <ul class="m-menu-list">
+                    <li class="m-menu-list-item"><a href="" class="menu-link">Services</a></li>
+                    <li class="m-menu-list-item"><a href="" class="menu-link">Portfolio</a></li>
+                    <li class="m-menu-list-item"><a href="" class="menu-link">About</a></li>
+                    <li class="m-menu-list-item"><a href="" class="menu-link">Team</a></li>
+                    <li class="m-menu-list-item"><a href="" class="menu-link">Contact</a></li>
+                </ul>
+        </nav>
+        
+        <div class="section-1">
+            <div class="content">
+                <h2 class="hero-text">Welcome To Our Studio!</h2>
+                <p class="hero-sub-text">IT'S NICE TO MEET YOU</p>
+                <a href="" class="btn">Tell Me More</a>
+            </div>
+        </div>
+        <div class="section-2">
+            
+        </div>
+    </body>
+</html>
+<script>
+    function toggleMenu() {
+    document.getElementById("menu-trigger").classList.toggle("show");
+}
+</script>
